@@ -11,4 +11,6 @@ void main(){
 
     printf("%d C = %f F",c,f);
 
+    // f = 9/5 * c+32;
+
 }
