@@ -19,7 +19,7 @@ void main(){
         sqr = i*i ;
         printf("Square of %d = %d\n",i,sqr);
     }
-   
+    // square of 2^2 = 4
 
 
 }
