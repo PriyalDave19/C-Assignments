@@ -3,7 +3,6 @@ void main(){
 
     int c;
     float f ;
-   
 
     printf("Please enter a Celcius : \n");
     scanf("%d",&c);
