@@ -1,19 +1,23 @@
 #include<stdio.h>
 void main(){
-    int n = 153 ,rem , res = 0 ,temp = n;
 
-    printf("Number = %d\n",n);
+    int num ,rem,arm=0 ,temp;
 
-    while(n != 0){
-        rem = n % 10; // 3
-        n = n / 10; //15
-        res += (rem*rem*rem);
+    printf("enter 3 digit number = \n");
+    scanf("%d",&num);
+    
+    temp = num;
+
+    while(num != 0){
+        rem = num%10;
+        num = num/10;
+        arm += rem*rem*rem;
     }
-    if(temp == res)
-        printf("Armstrong Number\n");
-    else
-        printf("Not a Armstrong Number\n");
 
+    if(arm == temp)
+        printf("Armstrong Number \n");
+    else
+        printf("Not a Armstrong Number \n");
 
 }
 
