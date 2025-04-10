@@ -26,7 +26,7 @@ void main(){
         printf("\n");
     }
 
-    printf("\nArray Elements in A Array=\n");
+    printf("\nDisplay Elements in A Array=\n");
 
     for(i = 0 ; i < r ; i++){
         for(j = 0 ; j < c ; j++){
@@ -35,7 +35,7 @@ void main(){
         printf("\n");
     }
     
-    printf("\nArray Elements in B Array=\n");
+    printf("\nDisplay  Elements in B Array=\n");
 
     for(i = 0 ; i < r ; i++){
         for(j = 0 ; j < c ; j++){

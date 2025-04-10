@@ -1,15 +1,8 @@
 #include<stdio.h>
-int prime( int i , int n ,int count){
-
-    for(i = 2 ; i < n ; i++){
-        if(n%i == 0)
-            count++;
-    }
-    return count ;
-}
 
 void main(){
     int n , i ,count = 0;
+    int prime( int i , int n ,int count);
       
     printf("Enter Number =\n");
     scanf("%d",&n);
@@ -20,4 +13,13 @@ void main(){
         printf("%d is Prime Number" , n);
     else
         printf("%d is Not a Prime Number" , n);
+}
+
+int prime( int i , int n ,int count){
+
+    for(i = 2 ; i < n ; i++){
+        if(n%i == 0)
+            count++;
+    }
+    return count ;
 }
